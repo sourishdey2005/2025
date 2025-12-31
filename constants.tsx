@@ -28,35 +28,35 @@ export interface LetterData {
 export const LETTERS: LetterData[] = [
   {
     id: 1,
-    title: "Soft & Personal",
+    title: "",
     icon: "💗",
     content: "I’m really grateful that I met you back in April 2025. I didn’t know then how much of an impact you’d have on my life, but looking back, it’s clear. From that moment on, this year started feeling different—lighter, warmer, and more meaningful. Thank you for coming into my life and making it more beautiful just by being yourself. The memories, the conversations, and even the quiet moments became special because of you. This year will always be memorable to me, and a big part of that is you.",
     color: "#fdfcf0"
   },
   {
     id: 2,
-    title: "Emotional & Gentle",
+    title: "",
     icon: "🌙",
     content: "Ever since April 2025, when our paths crossed, this year has held a different kind of meaning for me. Thank you for coming into my life and adding so much warmth and happiness to it. You made ordinary days feel special and simple moments feel worth remembering. I’m truly grateful for the way you made this year more beautiful, more memorable, and quietly unforgettable.",
     color: "#f5f3ff"
   },
   {
     id: 3,
-    title: "Reflective & Romantic",
+    title: "",
     icon: "✨",
     content: "Meeting you in April 2025 turned out to be one of the most unexpected and beautiful parts of this year. I didn’t realize then how much your presence would matter to me. Thank you for coming into my life and making it brighter in ways I can’t fully put into words. This year feels special because of the memories you’re part of, and I’ll always be thankful for that.",
     color: "#fff1f2"
   },
   {
     id: 4,
-    title: "Subtle Crush Feelings",
+    title: "",
     icon: "💫",
     content: "Since April 2025, this year has felt more meaningful, and I know why. Thank you for coming into my life and making it more beautiful and memorable. You brought smiles, comfort, and moments that I’ll always cherish. Even the smallest interactions became something I looked forward to. I’m grateful for you and for the way you made this year feel so special.",
     color: "#f0fdf4"
   },
   {
     id: 5,
-    title: "Warm Ending",
+    title: "",
     icon: "🌸",
     content: "I still think about how meeting you in April 2025 changed the way this year unfolded for me. Thank you for coming into my life and making it brighter, happier, and more memorable. Your presence added something special to my days, and that’s something I’ll always be thankful for.",
     color: "#fff7ed"
