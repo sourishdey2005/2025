@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-pink-100/40 via-transparent to-white dark:from-gray-900/60 dark:via-transparent dark:to-gray-900 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=2000&auto=format&fit=crop" 
+          src="https://www.vecteezy.com/free-photos/love" 
           alt="Romantic Background" 
           className="w-full h-[120%] object-cover opacity-30 dark:opacity-20 grayscale-[20%]"
         />
