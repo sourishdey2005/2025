@@ -38,7 +38,7 @@ const Timeline: React.FC = () => {
         >
           <motion.img 
             style={{ y: imgY, scale: 1.2 }}
-            src="https://images.unsplash.com/photo-1516589174184-c68536575960?q=80&w=800&auto=format&fit=crop" 
+            src="https://imgs.search.brave.com/-4BOD6KiDjPYHF1BGFRCFz-nG_hmoax8scoa9lnAvDs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMjY5/NTgzL3BleGVscy1w/aG90by0yNjk1ODMu/anBlZz9hdXRvPWNv/bXByZXNzJmNzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw" 
             alt="Romantic Memory" 
             className="w-full h-full object-cover" 
           />
