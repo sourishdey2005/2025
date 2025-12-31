@@ -11,7 +11,8 @@ const Particles: React.FC = () => {
       x: Math.random() * 100,
       size: Math.random() * 15 + 10,
       duration: Math.random() * 10 + 10,
-      type: Math.random() > 0.5 ? 'heart' : ('petal' as const)
+      // Fix: Explicitly cast the type property to match the state definition to avoid type widening to 'string'
+      type: (Math.random() > 0.5 ? 'heart' : 'petal') as 'heart' | 'petal'
     }));
     setParticles(newParticles);
   }, []);
