@@ -59,7 +59,7 @@ const App: React.FC = () => {
           <div className="w-44 p-3 bg-white shadow-2xl rotate-[-2deg] transition-all duration-500 hover:opacity-100 hover:rotate-0">
             <div className="w-full aspect-[3/4] overflow-hidden bg-gray-50">
               <img 
-                src="https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=300" 
+                src="https://imgs.search.brave.com/emDdccHzlxaYbnSKOzypz3KrzItQqlDUao9v97MrNJc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvcm9t/YW50aWMtZnVsbC1t/b29uLTBlNmZwNjQ3/MW90MXVrNXYuanBn" 
                 alt="Abstract Love" 
                 className="w-full h-full object-cover opacity-80 grayscale-[20%]" 
               />
@@ -78,7 +78,7 @@ const App: React.FC = () => {
           <div className="w-36 p-3 bg-white shadow-2xl rotate-[3deg] transition-all duration-500 hover:opacity-100 hover:rotate-0">
             <div className="w-full aspect-square overflow-hidden bg-gray-50 rounded-full">
               <img 
-                src="https://images.unsplash.com/photo-1516589174184-c68536575960?q=80&w=300" 
+                src="https://imgs.search.brave.com/0NGtCYqjFQ8Q2SHVd5wm-Bty07UqUdMVKVGzmF9G8oE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wYXJh/ZGUuY29tLy5pbWFn/ZS93XzM4NDAscV9h/dXRvOmdvb2QsY19s/aW1pdC9NakF5Tmpn/eE5EZ3pOekkxTXpn/eU56STAvcm9tYW50/aWMtbG92ZS1xdW90/ZXMtYWNyb3NzLXRo/ZS11bml2ZXJzZS5q/cGc_YXJlbmFfZl9h/dXRv" 
                 alt="Memory" 
                 className="w-full h-full object-cover opacity-80" 
               />
