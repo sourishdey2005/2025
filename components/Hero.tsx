@@ -11,6 +11,31 @@ const Hero: React.FC = () => {
   return (
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden px-6 text-center">
       
+      {/* 🎆 Soft Fireworks Glow */}
+      <div className="absolute inset-0 pointer-events-none -z-20">
+        {[...Array(6)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute w-32 h-32 rounded-full bg-pink-400/30 blur-3xl"
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{
+              scale: [0, 1.2, 0],
+              opacity: [0, 0.6, 0],
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              delay: i * 0.6,
+              ease: "easeOut",
+            }}
+            style={{
+              top: `${Math.random() * 80}%`,
+              left: `${Math.random() * 80}%`,
+            }}
+          />
+        ))}
+      </div>
+
       {/* Parallax Background */}
       <motion.div 
         style={{ y: y1 }}
@@ -59,7 +84,7 @@ const Hero: React.FC = () => {
             text-white rounded-full 
             bg-gradient-to-r from-pink-400 via-rose-400 to-pink-500 
             shadow-lg shadow-pink-300/40">
-            ✨ Happy New Year 2026 ✨
+            ✨ Happy New Year 2026  Madamji✨
           </span>
         </motion.div>
 
