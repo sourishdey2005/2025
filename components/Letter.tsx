@@ -115,7 +115,7 @@ const Letter: React.FC = () => {
           <div className="relative z-10">
             <div className="mb-12 text-center md:text-left">
               <h1 className="font-cursive text-5xl md:text-6xl text-black drop-shadow-sm mb-4">My Dearest,</h1>
-              <p className="text-xs text-black uppercase tracking-widest ml-1">San Francisco • 11:59 PM</p>
+              <p className="text-xs text-black uppercase tracking-widest ml-1">Bhubaneswar • 11:59 PM</p>
             </div>
 
             <div className="flex justify-center md:justify-start mb-10">
