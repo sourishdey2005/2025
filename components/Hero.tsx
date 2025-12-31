@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown, Heart } from 'lucide-react';
-import HeroPetals from './HeroPetals';
+import HeroPetals from './HeroPetals.tsx';
 
 const Hero: React.FC = () => {
   const { scrollY } = useScroll();

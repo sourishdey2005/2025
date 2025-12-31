@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import Hero from './components/Hero';
-import Timeline from './components/Timeline';
-import Memories from './components/Memories';
-import Letter from './components/Letter';
-import SpecialYear from './components/SpecialYear';
-import Footer from './components/Footer';
-import Particles from './components/Particles';
-import FloatingControls from './components/FloatingControls';
+import Hero from './components/Hero.tsx';
+import Timeline from './components/Timeline.tsx';
+import Memories from './components/Memories.tsx';
+import Letter from './components/Letter.tsx';
+import SpecialYear from './components/SpecialYear.tsx';
+import Footer from './components/Footer.tsx';
+import Particles from './components/Particles.tsx';
+import FloatingControls from './components/FloatingControls.tsx';
 
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(false);

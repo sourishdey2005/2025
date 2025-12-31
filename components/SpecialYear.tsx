@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Star, Moon } from 'lucide-react';
-import { REASONS } from '../constants';
+import { REASONS } from '../constants.tsx';
 
 const IconsMap = { Heart, Star, Moon };
 

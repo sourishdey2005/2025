@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Heart } from 'lucide-react';
-import { LETTERS, LETTER_CONTENT } from '../constants';
+import { LETTERS, LETTER_CONTENT } from '../constants.tsx';
 
 const LetterCard: React.FC<{ letter: string; color: string; title: string; icon: string }> = ({ letter, color, title, icon }) => {
   const words = letter.split(' ');

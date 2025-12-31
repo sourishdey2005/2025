@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Heart, Star, Moon, Flower2, Sparkles } from 'lucide-react';
-import { MEMORIES } from '../constants';
+import { MEMORIES } from '../constants.tsx';
 
 const IconsMap = {
   Heart, Star, Moon, Flower2, Sparkles
