@@ -16,7 +16,7 @@ const App: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    audioRef.current = new Audio('https://cdn.pixabay.com/audio/2024/05/14/audio_331446.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
 
