@@ -16,7 +16,7 @@ const App: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio('https://drive.google.com/file/d/1PozQP903eg8CS6JDpQAf180-_LWUcte4/view?usp=drive_link');
+    audioRef.current = new Audio('https://res.cloudinary.com/dodhvvewu/video/upload/v1767182988/indian-hindi-song-bollywood-music-340874_oxxzfk.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
 
