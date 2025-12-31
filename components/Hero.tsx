@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown, Heart } from 'lucide-react';
+import HeroPetals from './HeroPetals';
 
 const Hero: React.FC = () => {
   const { scrollY } = useScroll();
@@ -21,6 +22,7 @@ const Hero: React.FC = () => {
           alt="Romantic Background" 
           className="w-full h-[120%] object-cover opacity-30 dark:opacity-20 grayscale-[20%]"
         />
+        <HeroPetals />
       </motion.div>
       
       <motion.div
