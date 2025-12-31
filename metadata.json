@@ -1,0 +1,7 @@
+{
+  "name": "2025: Our Beautiful Year",
+  "description": "A romantic digital love letter celebrating a special year and a beautiful connection.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
