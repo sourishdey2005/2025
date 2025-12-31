@@ -140,7 +140,7 @@ const Letter: React.FC = () => {
             </div>
 
             <Polaroid 
-              src="https://images.unsplash.com/photo-1516589174184-c68536575960?q=80&w=400" 
+              src="https://www.vecteezy.com/free-photos/love" 
               caption="Us in April" 
               rotation={-2} 
             />
